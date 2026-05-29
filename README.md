@@ -8,16 +8,15 @@
 
 | Category | Description |
 |-----------|-----------|
-| **Model Type** | Supervised Machine Learning Classifier |
-| **Feature Extraction** | Stochastic Graph-Based Feature Extraction |
-| **Architecture** | Stochastic Graph Attention-Based Randomization Algorithm + Random Forest Ensemble Classifier |
+| **Model Type** | GCN |
+| **Architecture** | Standard Data Processing(Needs Adjustment) + GCN-Based Edge Relationship Identifier |
 | **Task** | Alzheimer's Severity Classification |
 | **Classes** | Healthy, Mild, Moderate, Severe |
-| **Outputs** | Disease prediction, confidence scores, and interpretable electrode-connection importance rankings |
-| **Dataset Compatibility** | Any standard EEG dataset |
-| **Expected Accuracy** | 88–95% average classification accuracy (dataset dependent) |
-| **Interpretability** | Identifies dominant electrode-to-electrode connections influencing predictions |
-| **Deployment Goal** | Lightweight, fast, and practical real-world EEG inference |
+| **Outputs** | classification into one of the four classes |
+| **Dataset Compatibility** | Any standard EEG dataset, aswell as any questionaire with the given questions |
+| **Expected Accuracy** | 88–95% average classification accuracy (dataset dependent) -> This was as of the first iteration(v1) |
+| **Interpretability** | Identifies dominant edge-to-edge connections influencing predictions |
+| **Deployment Goal** | It is lightweight, will be fast, and will help serve communities worldwide |
 
 
 # Introduction:
