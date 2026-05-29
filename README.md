@@ -1,10 +1,30 @@
-Proteus Arc: The OpenSource Real-Life Deployable EEG Model for Diagnosing Alzheimer's.
+<p align="center">
+<img width="70" height="100" alt="Screenshot 2026-05-29 at 1 46 25 PM" src="https://github.com/user-attachments/assets/62f761c2-2625-40c8-a44c-9f52cb1f7ced" />
+</p>
 
-Introduction:
+# Proteus Arc: The OpenSource Real-Life Deployable EEG Model for Diagnosing Alzheimer's. 
 
-Details:
+<b>Note:</b> Throughout time, new versions of Proteus Arc are constantly created and iterated upon to make for a better model. 
 
-Datasets:
+| Category | Description |
+|-----------|-----------|
+| **Model Type** | Supervised Machine Learning Classifier |
+| **Feature Extraction** | Stochastic Graph-Based Feature Extraction |
+| **Architecture** | Stochastic Graph Attention-Based Randomization Algorithm + Random Forest Ensemble Classifier |
+| **Task** | Alzheimer's Severity Classification |
+| **Classes** | Healthy, Mild, Moderate, Severe |
+| **Outputs** | Disease prediction, confidence scores, and interpretable electrode-connection importance rankings |
+| **Dataset Compatibility** | Any standard EEG dataset |
+| **Expected Accuracy** | 88–95% average classification accuracy (dataset dependent) |
+| **Interpretability** | Identifies dominant electrode-to-electrode connections influencing predictions |
+| **Deployment Goal** | Lightweight, fast, and practical real-world EEG inference |
+
+
+# Introduction:
+
+# Details:
+
+# Datasets:
 
 1. https://openneuro.org/datasets/ds004504/versions/1.0.9
 Andreas Miltiadous, Katerina D. Tzimourta, Theodora Afrantou, Panagiotis Ioannidis, Nikolaos Grigoriadis, Dimitrios G. Tsalikakis,
@@ -13,10 +33,26 @@ A dataset of EEG recordings from: Alzheimer's disease, Frontotemporal dementia a
 2. https://www.kaggle.com/datasets/nigarmahmoudshafiq/nigar-eeg-alzheimers-dataset-v1 (to be implemented)
 3. https://www.mdpi.com/2306-5729/8/6/95 (to be implemented)
 
-Preprocessing:
+# Preprocessing:
 
-mL Algorithm: This algorithm has 2 components. The first is the primarily GCN-based model for the EEG test. The second one will be an AI model that analyzes patients voice/text
+# mL Algorithm: 
+This algorithm has 2 components. The first is the primarily GCN-based model for the EEG test. The second one will be an AI model that analyzes patients voice/text
 responce to questions given on a questionaire by a clinician. The weight of the GCN is 80%, while the weight of the AI model is 20%. 
 
-How to use the Algorithm on your own Data: 
+# How to use the Algorithm on your own Data: 
+
+# Acknowledgements and Credits
+<b>Team</b> 
+
+Naga Pranay Immadi - Founder and Software Developer
+
+Dhruva Sammeta - Hardware Developer
+
+<b>Mentors</b>
+
+Dr Rashmin Gandhi
+
+Dr Siva Ram Male
+
+Shubham Gade
 
