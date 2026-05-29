@@ -1,7 +1,11 @@
 Proteus Arc: The OpenSource Real-Life Deployable EEG Model for Diagnosing Alzheimer's.
+
 Introduction:
+
 Details:
+
 Datasets:
+
 1. https://openneuro.org/datasets/ds004504/versions/1.0.9
 Andreas Miltiadous, Katerina D. Tzimourta, Theodora Afrantou, Panagiotis Ioannidis, Nikolaos Grigoriadis, Dimitrios G. Tsalikakis,
 Pantelis Angelidis, Markos G. Tsipouras, Evripidis Glavas, Nikolaos Giannakeas, and Alexandros T. Tzallas (2026).
