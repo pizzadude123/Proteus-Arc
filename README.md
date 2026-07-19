@@ -40,18 +40,3 @@ responce to questions given on a questionaire by a clinician. The weight of the 
 
 # How to use the Algorithm on your own Data: 
 
-# Acknowledgements and Credits
-<b>Team</b> 
-
-Naga Pranay Immadi - Founder and Software Developer
-
-Dhruva Sammeta - Hardware Developer
-
-<b>Mentors</b>
-
-Dr Rashmin Gandhi
-
-Dr Siva Ram Male
-
-Shubham Gade
-
